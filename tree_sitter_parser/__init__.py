@@ -88,7 +88,7 @@ def create_newline_offsets(input: bytes):
     """
     offsets = [0]
 
-    for (i, chr) in enumerate(input.decode("utf-8"), start=1):
+    for i, chr in enumerate(input.decode("utf-8"), start=1):
         if chr == "\n":
             offsets.append(i)
 
