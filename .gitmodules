@@ -31,12 +31,12 @@
 [submodule "tree-sitter-rust"]
 	path = tree-sitter-rust
 	url = https://github.com/tree-sitter/tree-sitter-rust
-[submodule "tree-sitter-cmake"]
-	path = tree-sitter-cmake
-	url = https://github.com/uyha/tree-sitter-cmake
 [submodule "tree-sitter-kotlin"]
 	path = tree-sitter-kotlin
 	url = https://github.com/fwcd/tree-sitter-kotlin.git
 [submodule "tree-sitter-groovy"]
 	path = tree-sitter-groovy
 	url = https://github.com/dolphin323/tree-sitter-groovy.git
+[submodule "tree-sitter-cmake"]
+	path = tree-sitter-cmake
+	url = https://github.com/mahtab-nejati/tree-sitter-cmake
