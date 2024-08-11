@@ -22,20 +22,7 @@ def init_parsers(script_dir):
     if Language.build_library(
         script_dir + "/build/languages.so",
         [
-            script_dir + "/tree-sitter-c",
-            script_dir + "/tree-sitter-c-sharp",
             script_dir + "/tree-sitter-cmake",
-            script_dir + "/tree-sitter-groovy",
-            script_dir + "/tree-sitter-java",
-            script_dir + "/tree-sitter-javascript",
-            script_dir + "/tree-sitter-kotlin",
-            script_dir + "/tree-sitter-ocaml/ocaml",
-            script_dir + "/tree-sitter-php",
-            script_dir + "/tree-sitter-python",
-            script_dir + "/tree-sitter-r",
-            script_dir + "/tree-sitter-ruby",
-            script_dir + "/tree-sitter-rust",
-            script_dir + "/tree-sitter-typescript/typescript",
         ],
     ):
         eprint("Compiled dynamic library of parsers.")
@@ -43,20 +30,7 @@ def init_parsers(script_dir):
         eprint("Reusing dynamic library of parsers.")
 
     return {
-        "c": Language(script_dir + "/build/languages.so", "c"),
-        "csharp": Language(script_dir + "/build/languages.so", "c_sharp"),
         "cmake": Language(script_dir + "/build/languages.so", "cmake"),
-        "groovy": Language(script_dir + "/build/languages.so", "groovy"),
-        "java": Language(script_dir + "/build/languages.so", "java"),
-        "javascript": Language(script_dir + "/build/languages.so", "javascript"),
-        "kotlin": Language(script_dir + "/build/languages.so", "kotlin"),
-        "ocaml": Language(script_dir + "/build/languages.so", "ocaml"),
-        "php": Language(script_dir + "/build/languages.so", "php"),
-        "python": Language(script_dir + "/build/languages.so", "python"),
-        "r": Language(script_dir + "/build/languages.so", "r"),
-        "ruby": Language(script_dir + "/build/languages.so", "ruby"),
-        "rust": Language(script_dir + "/build/languages.so", "rust"),
-        "typescript": Language(script_dir + "/build/languages.so", "typescript"),
     }
 
 
