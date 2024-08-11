@@ -1,6 +1,10 @@
+> **_NOTE:_** This repository is a pruned version of the upstream repository that only supports the `CMake` grammar. 
+
+> **_NOTE:_** The `tree-sitter-cmake` submodule differs from the one used in the upstream repository and points to [this specific version of this repository](https://github.com/mahtab-nejati/tree-sitter-cmake/releases/tag/ASE2024).
+
 # tree-sitter-parser
 
-`tree-sitter-parser` is a GumTree wrapper for tree-sitter parsers. It conveniently converts source code files to XML files compatible with GumTree.
+`tree-sitter-parser` is a [GumTree]() wrapper for tree-sitter parsers. It conveniently converts source code files to XML files compatible with GumTree.
 
 ## Installation
 
@@ -44,15 +48,4 @@ Currently, we only have a working configuration for Java. Don't hesitate to prov
 
 ## Grammars
 
-Here is the list of the available parsers:
-- `c`
-- `c-sharp`
-- `java`
-- `javascript`
-- `ocaml`
-- `php`
-- `python`
-- `r`
-- `ruby`
-- `rust`
-- `typescript`
+This repository is a pruned version of the upstream repository that only supports the `CMake` grammar.
